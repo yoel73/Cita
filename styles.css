@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6f2;
+}
+
+h1 {
+    color: #ff4d79;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Centra los botones en conjunto */
+    gap: 20px; /* Espacio entre ellos */
+    margin-top: 20px;
+    position: relative; /* Permite mover "No" sin sacarlo del flujo */
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#yes {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#no {
+    background-color: #f44336;
+    color: white;
+    position: relative; /* Se moverá sin perder la alineación inicial */
+}
